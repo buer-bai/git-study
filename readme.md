@@ -45,4 +45,6 @@
 * git remote add origin(远程仓库名称可以自定义默认为) github项目地址
 
 * git push -u origin 分支名称  推送本地分支代码到远程仓库
+
+* git clone  github项目地址  克隆远程仓库项目到本地
 输入git log 按住键盘 q 键（英文状态下）即可退出
