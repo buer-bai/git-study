@@ -46,7 +46,13 @@
 
 * git push origin 分支名称  推送本地分支代码到远程仓库
 
-* git pull origin 分支名称  从远程仓库拉取最新代码
+* git pull origin 分支名称  直接从远程仓库拉取最新代码到工作区
+
+* git fetch origin 分支名称  从远程仓库拉取代码到本地版本库
+
+* git merge origin/分支名称  合并远程仓库代码到工作区
+
+* git pull origin 分支名称 等同于 git fetch origin 分支名称 + git merge origin/分支名称
 
 * git clone  github项目地址  克隆远程仓库项目到本地
 
