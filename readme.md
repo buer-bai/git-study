@@ -46,6 +46,8 @@
 
 * git push origin 分支名称  推送本地分支代码到远程仓库
 
+* git pull origin 分支名称  从远程仓库拉取最新代码
+
 * git clone  github项目地址  克隆远程仓库项目到本地
 
 输入git log 按住键盘 q 键（英文状态下）即可退出
