@@ -27,3 +27,13 @@
 * git reset --mix 版本号  回滚至之前某个版本到工作区修改状态
 
 * git reset --hard 版本号 回滚至之前某个版本到工作区
+
+### 创建分支
+
+* git branch 查看所有分支
+
+* git branch 分支名称  创建分支
+
+* git checkout 分支名称  切换分支
+
+输入git log 按住键盘 q 键（英文状态下）即可退出
