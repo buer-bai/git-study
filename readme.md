@@ -36,4 +36,6 @@
 
 * git checkout 分支名称  切换分支
 
+* git gerge 分支名称  合并A分支到B分支要先切换到B分支再合并
+
 输入git log 按住键盘 q 键（英文状态下）即可退出
