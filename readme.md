@@ -14,12 +14,16 @@
 
 * git log 查看历史版本
 
-* git reflog 查看所有历史版本
+* git reflog 查看所有历史版本上一次
 
 ### 版本回滚
 
-* git reset --hard 版本号  回滚至之前某个版本
+* git checkout 文件  取消上一次工作区文件的修改
 
-* git reset head 文件 取消暂存区文件的保存
+* git reset head 文件 取消上一次暂存区文件的保存回到工作区
 
-* git checkout 文件  取消工作区文件的修改
+* git reset --soft 版本号 回滚至之前某个版本到暂存区
+
+* git reset --mix 版本号  回滚至之前某个版本到工作区修改状态
+
+* git reset --hard 版本号 回滚至之前某个版本到工作区
