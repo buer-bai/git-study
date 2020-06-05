@@ -38,4 +38,11 @@
 
 * git gerge 分支名称  合并A分支到B分支要先切换到B分支再合并
 
+* git branch -d 分支名称  删除某个分支
+
+### 托管项目到远程仓库github
+
+* git remote add origin(远程仓库名称可以自定义默认为) github项目地址
+
+* git push -u origin 分支名称  推送本地分支代码到远程仓库
 输入git log 按住键盘 q 键（英文状态下）即可退出
