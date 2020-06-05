@@ -42,9 +42,10 @@
 
 ### 托管项目到远程仓库github
 
-* git remote add origin(远程仓库名称可以自定义默认为) github项目地址
+* git remote add origin github项目地址  给远程仓库名称起别名origin可以自定义默认为origin
 
-* git push -u origin 分支名称  推送本地分支代码到远程仓库
+* git push origin 分支名称  推送本地分支代码到远程仓库
 
 * git clone  github项目地址  克隆远程仓库项目到本地
+
 输入git log 按住键盘 q 键（英文状态下）即可退出
